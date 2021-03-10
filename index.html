@@ -30,6 +30,7 @@
   <link rel="manifest" href="manifest.json">
 
   <meta name="google-signin-client_id" content="147422357864-um4fvf985lg3ltl9lhnqnfkokueugas5.apps.googleusercontent.com">
+<!--    <meta name="google-signin-client_id" content="1063196850352-6ce7iamdofih80ohs0n95jdmee7lc53p.apps.googleusercontent.com">-->
 </head>
 <body>
   <!-- This script installs service_worker.js to provide PWA functionality to
@@ -38,7 +39,7 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('flutter-first-frame', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=3543760179');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=289284877');
       });
     }
   </script>
@@ -62,6 +63,17 @@
       measurementId: "G-HX6Q06HL20"
     };
     firebase.initializeApp(firebaseConfig);
+    //
+    // var firebaseConfig = {
+    //   apiKey: "AIzaSyCCZ-C-AN2uVUNofNhr7Sd8tzSZHMseuKY",
+    //   authDomain: "fantasytrackhs-dev.firebaseapp.com",
+    //   projectId: "fantasytrackhs-dev",
+    //   storageBucket: "fantasytrackhs-dev.appspot.com",
+    //   messagingSenderId: "1063196850352",
+    //   appId: "1:1063196850352:web:599af4e7fc021ace52e375"
+    // };
+    // // Initialize Firebase
+    // firebase.initializeApp(firebaseConfig);
   </script>
 
   <script src="main.dart.js" type="application/javascript"></script>
