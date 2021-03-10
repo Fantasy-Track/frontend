@@ -47109,7 +47109,7 @@ return this.a.amr(a,b,this.b.VP(V.h9(P.af(["idToken",$.kR.b],s,s))).VP(c),d.i("0
 N.acO.prototype={
 Gq:function(){var s=0,r=P.A(t.H),q=this
 var $async$Gq=P.l(function(a,b){if(a===1)return P.x(b,r)
-while(true)switch(s){case 0:q.a=new E.acP(P.ks("http://localhost:7000",0,null))
+while(true)switch(s){case 0:q.a=new E.acP(P.ks("https://api.bhsfantasy.com",0,null))
 return P.y(null,r)}})
 return P.z($async$Gq,r)}}
 R.akV.prototype={
