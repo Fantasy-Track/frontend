@@ -25,7 +25,7 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('flutter-first-frame', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=2896677483');
+        navigator.serviceWorker.register('flutter_service_worker.js');
       });
     }
   </script>
@@ -39,13 +39,13 @@
 
   <script>
     var firebaseConfig = {
-      apiKey: "AIzaSyB3eTvI3rEOQFOoE_lSKuKMdjESVZlXF9I",
-      authDomain: "fantasytrackhs.firebaseapp.com",
-      projectId: "fantasytrackhs",
-      storageBucket: "fantasytrackhs.appspot.com",
-      messagingSenderId: "147422357864",
-      appId: "1:147422357864:web:d66a8bf18d0b2d27120edd",
-      measurementId: "G-HX6Q06HL20"
+      apiKey: "${FIREBASE_API_KEY}",
+      authDomain: "${FIREBASE_AUTH_DOMAIN}",
+      projectId: "${FIREBASE_PROJECT_ID}",
+      storageBucket: "${FIREBASE_STORAGE_BUCKET}",
+      messagingSenderId: "${FIREBASE_MESSAGING_SENDER_ID}",
+      appId: "${FIREBASE_APP_ID}",
+      measurementId: "${FIREBASE_MEASUREMENT_ID}"
     };
     firebase.initializeApp(firebaseConfig);
   </script>
