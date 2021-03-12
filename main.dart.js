@@ -47528,6 +47528,7 @@ q=X.aK3(C.ai,C.az,C.O,C.az,"ProximaNova",new L.DI(q.y,new F.ko(C.i8,new Y.cT(C.a
 s=H.b([new D.D6($.bb(),P.F(t.XD,t.Qd))],t.wH)
 return new S.Es(r,P.ag(["/",new F.ax0(),"/auth",new F.ax1(),"/join-league",new F.ax2(),"/create-league",new F.ax3(),"/create-league-loading",new F.ax4(),"/home",new F.ax5()],t.X,t.sy),"/",s,"Fantasy Track",q,null)},
 ae:function(){this.ax()
+Q.aH9()
 var s=A.D9()
 s.Q9(s.gph().G3()).dD(0,new F.ax9(this))}}
 F.ax0.prototype={
@@ -47564,10 +47565,8 @@ case 5:o=c
 p=p.c.i(0,"uid")
 $.kO=new L.SF(o,p,[p])
 s=6
-return P.A(Q.aH9(),$async$$1)
-case 6:s=7
 return P.A(Q.MJ(),$async$$1)
-case 7:n=c
+case 6:n=c
 p=q.a
 $.aYR().aqC(n).aS(0,new F.ax7(p),t.H).fA(new F.ax8(p))
 case 3:return P.v(null,r)}})
